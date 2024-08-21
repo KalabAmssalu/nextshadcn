@@ -1,4 +1,4 @@
-export default {
+export const metadata = {
   name: "Toorax",
   appNameDesc: "Toorax",
   appPublisher: "KABA Software Development",

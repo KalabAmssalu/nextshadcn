@@ -1,4 +1,4 @@
-import metadata from "./constants/metadata";
+import { metadata } from "./constants/metadata";
 
 export const siteConfig = {
   name: metadata.name,
