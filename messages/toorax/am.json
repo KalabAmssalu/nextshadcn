@@ -1,0 +1,123 @@
+{
+  "AuthjsV5Test": {
+    "clientExamplePageTsx": "እናቀርባለን (page.tsx)",
+    "clientSideRendering": "የተቋማ አገልግሎት ማብራሪያ",
+    "exampleBackend": "ምሳሌ የመኋላ አገልግሎት",
+    "here": "እዚህ",
+    "loading": "በመጫን ላይ...",
+    "sessionprovider": "የሴሽን አቅራቢ",
+    "thirdPartyBackendIntegration": "ሶስተኛ ወገን መኋላ አገልግሎት አውጪ",
+    "update": "አዘምን",
+    "updatingTheSession": "ሴሽኑን እየተሻሻለ",
+    "useClient": "አገልግሎት እንድትጠቀም",
+    "usesession": "ሴሽኑን ተጠቀም"
+  },
+  "metadata": {
+    "description": "በብሩህ የግብይት መሳሪያዎች እንዲሁም የኔክስት.js 15 እና እንዲሁም የReact 19 እና ሌሎችን ብርቅ ብቁነት ለማሳመም ያለዎትን ንብረት ለመሻሻል አዘጋጅቶ የኤኮማርስ ንብረት አይነት",
+    "title": {
+      "home": "መነሻ ገጽ"
+    }
+  },
+
+  "CartAddForm": {
+    "addOneItem": "አንድ እቃ አክል",
+    "quantity": "ብዛት",
+    "removeOneItem": "አንድ እቃ አስወግድ"
+  },
+  "CommerceDashboard": {
+    "dashboard": "መስተዳድር"
+  },
+  "ContactForm": {
+    "message": "መልእክት",
+    "subject": "ርዕስ"
+  },
+  "CountryList": {
+    "currencies": "ብርብሮች:",
+    "languages": "ቋንቋዎች:",
+    "loading": "በመጫን ላይ..."
+  },
+  "DataTablePagination": {
+    "rowsPerPage": "በአንድ ገጽ ያሉ መስመሮች"
+  },
+  "DialogShell": {
+    "close": "ዝጋ"
+  },
+  "Error": {
+    "description": "<p>እናንተ አዎንታማ ስህተትን አጋጥማችኋል።</p><p>ያጋጠማችሁበትን ገጽ <retry>እንደገና አክል</retry> በማለት ይሞክሩ። ይህንን ስህተት እኛን እንደሚገልጽን ለምንም እንገኝ፣ እናመሰግናለን!</p>",
+    "title": "አንዳንድ ነገር ተሳስቷል..."
+  },
+  "Faceted": {
+    "noResultsFound": "ውጤቶች አልተገኙም።"
+  },
+  "GuestAddForm": {
+    "email": "ኢሜይል"
+  },
+  "JoinNewsletterForm": {
+    "joinReliverseWeeklyNewsletter": "የሪሊቨርስ ሳምንታዊ አስታወቅያ ይቀላቀሉ",
+    "tryAgain": "እንደገና ሞክር"
+  },
+  "LocaleSwitcher": {
+    "changeLanguage": "ቋንቋን ቀይር",
+    "english": "እንግሊዝኛ",
+    "germany": "ጀርመን",
+    "languages": "ቋንቋዎች",
+    "spanish": "ስፓኒሽ",
+    "ukrainian": "ዩክሬንኛ"
+  },
+  "LoginForm": {
+    "no-account": "መለያ የለህም?",
+    "signup": "እዚህ ተመዝግብ።",
+    "title": "ግባ",
+    "welcome-back": "እንኳን በደኅና መጣህ"
+  },
+  "MainMenu": {
+    "websiteLogoWithName": "የመስመር ላይ ገፅ ሎጎ እና ስም"
+  },
+  "Manifest": {
+    "name": "ሬሊቫተር ኔክስት.ጅስ አብንጃ"
+  },
+  "MdxCard": {
+    "view": "እይታ"
+  },
+  "MobileMenu": {
+    "toggleMenu": "ምናሌን ቀይር"
+  },
+  "ModeToggle": {
+    "toggleTheme": "ቴምን ቀይር"
+  },
+  "MultiUploader": {
+    "dropFilesHere": "ፋይሎቹን እዚህ ጣል!"
+  },
+  "NavWithCompactPageHeader": {
+    "navwithcompactpageheader": "ነቅቷ በደንብ ያለ ሰሌዳ"
+  },
+  "NewsletterWelcomeEmail": {
+    "reliverseWeeklyNewsletter": "የሪሊቨርስ ሳምንታዊ አስታወቅያ"
+  },
+  "Options": {
+    "toggleColumns": "አሞሌዎችን ቀይር"
+  },
+  "PathnamesPage": {
+    "description": "<p>ሪሊቨርስ መጫወቻ | ኔክስት-ኢንትል | አድራሻ አርክሶች በቋንቋ ሊተነቡ ይችላሉ።</p><p>የእንግሊዝኛ ቋንቋ በእርስዎ በነቅናችሁ ከምንቀርባት ጋር ሲሆን፣ በእዚህ ገጽ የእንግሊዝኛ ቋንቋን እየተጠቀሙ በትክክል የሚሰማውን ማድረግ ይችላሉ።</p><p>ቋንቋን ወደ ጀርመን ማሻሻል እንደሚፈልጉት ቋንቋን ቀይር እንደሚሰማ በተንበረከነው እንደሚታወቀ የቋንቋ ምንጭ (ይሄንን እንደገና ሞክሩ)...</p>",
+    "title": "አድራሻ አርክሶች"
+  },
+  "PostAddForm": {
+    "createPost": "ቅዱስ ፖስት ፍጠር"
+  },
+  "ProfileForm": {
+    "changePassword": "የይለፍ ቃል ቀይር"
+  },
+  "ResetPasswordForm": {
+    "reset": "እንደገና አስጀምር"
+  },
+  "SiteHeader": {
+    "logo": "ሎጎ"
+  },
+  "SubscriptionForm": {
+    "subscribe": "ሰብስክራይብ አድርግ"
+  },
+  "UncontrolledCarousel": {
+    "next": "ቀጣይ",
+    "previous": "ቀዳሚ"
+  }
+}
