@@ -1,7 +1,12 @@
 import { ThemeProvider } from "@/providers/theme-provider";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import localFont from "next/font/local";
 
+// Define the type for the metadata function's parameter
+const myFont = localFont({
+  src: "../../../public/fonts/NotoSerifEthiopic-VariableFont_wdth,wght.ttf",
+});
 export default async function LocaleLayout({
   children,
   params: { locale },
@@ -15,7 +20,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className={myFont.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
