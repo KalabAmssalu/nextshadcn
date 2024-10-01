@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
+
+
+yarn run check-types || {
+  echo "TypeScript type check failed. Please resolve the type errors reported. Fix the issues, update your changes, and retry the commit."
+  exit 1
+}
+
+# Check Prettier standards
+yarn run check-format || {
+  echo "Prettier check failed. Please ensure your code adheres to the formatting standards. \`pnpm run format\`, review the changes, and try committing again."
+  exit 1
+}
+
+# Check ESLint standards
+yarn run lint || {
+  echo "ESLint check failed. Please address the linting issues listed above. Make the necessary corrections, add the changes, and attempt the commit again."
+  exit 1
+}
+
+echo "All checks passed successfully. Proceeding with commit."

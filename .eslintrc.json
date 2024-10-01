@@ -1,9 +1,42 @@
 {
-  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
-  "globals": {
-    "React": "readonly"
-  },
-  "rules": {
-    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
-  }
+	"extends": ["next", "next/core-web-vitals", "eslint:recommended", "prettier"],
+	"plugins": ["@typescript-eslint"],
+	"globals": {
+		"React": "readonly"
+	},
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
+		"project": "./tsconfig.json",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"prefer-arrow-callback": "error",
+		"prefer-template": "error",
+		"import/no-unresolved": "error",
+		"import/named": "error",
+		"quotes": ["error", "double"],
+		"no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }],
+		"@typescript-eslint/ban-ts-comment": [
+			"error",
+			{
+				"ts-expect-error": "allow-with-description",
+				"minimumDescriptionLength": 10
+			}
+		],
+		"@typescript-eslint/consistent-type-definitions": "off",
+		"@typescript-eslint/consistent-type-exports": "error",
+		"@typescript-eslint/consistent-type-imports": [
+			"warn",
+			{ "fixStyle": "inline-type-imports" }
+		]
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": {
+				"project": "tsconfig.json"
+			}
+		}
+	}
 }

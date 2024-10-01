@@ -13,25 +13,25 @@ export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "en-US";
 
 export const pathnames: Pathnames<typeof locales> = {
-  "/": "/",
-  "/donate": {
-    "en-US": "/donate",
-    am: "/ለመችላት",
-  },
-  "/pathnames": {
-    "en-US": "/pathnames",
-    am: "/መንገዶች",
-  },
+	"/": "/",
+	"/donate": {
+		"en-US": "/donate",
+		am: "/ለመችላት",
+	},
+	"/pathnames": {
+		"en-US": "/pathnames",
+		am: "/መንገዶች",
+	},
 };
 
 export const labels = {
-  "en-US": "English",
-  am: "Amharic",
+	"en-US": "English",
+	am: "Amharic",
 };
 
 export const localeFlags: {
-  [key in Locale]: string;
+	[key in Locale]: string;
 } = {
-  "en-US": "🇺🇸",
-  am: "🇪🇹",
+	"en-US": "🇺🇸",
+	am: "🇪🇹",
 };
