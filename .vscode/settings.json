@@ -9,5 +9,6 @@
 	"prettier.tabWidth": 2,
 	"files.associations": {
 		"*.css": "tailwindcss"
-	}
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib"
 }

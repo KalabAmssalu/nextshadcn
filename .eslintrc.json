@@ -1,6 +1,6 @@
 {
 	"extends": ["next", "next/core-web-vitals", "eslint:recommended", "prettier"],
-	"plugins": ["@typescript-eslint"],
+	"plugins": ["@typescript-eslint", "react"],
 	"globals": {
 		"React": "readonly"
 	},
@@ -12,6 +12,7 @@
 		}
 	},
 	"rules": {
+		"react/react-in-jsx-scope": "off",
 		"prefer-arrow-callback": "error",
 		"prefer-template": "error",
 		"import/no-unresolved": "error",
@@ -37,6 +38,9 @@
 			"typescript": {
 				"project": "tsconfig.json"
 			}
+		},
+		"react": {
+			"version": "detect" // Automatically detect the React version
 		}
 	}
 }
